@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/holo_blue_light"
+    tools:context="com.example.android.tictactoeapp.MainActivity">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:text="Welcome to tic tac toe!"
+        android:textSize="45sp" />
+
+    <Button
+        android:id="@+id/threebythree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:text="three by three"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/fivebyfive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="five by five"
+        android:textSize="20sp"
+        android:layout_margin="40dp"/>
+
+
+
+</LinearLayout>
